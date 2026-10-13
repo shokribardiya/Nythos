@@ -2,8 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<!-- SECURITY-LAYER:BEGIN -->
+<!-- Client-side hardening only. Not a substitute for server/Cloudflare protections
+     (security headers, WAF, rate limiting, auth). Safe to edit the page freely. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' https://cdn.jsdelivr.net/npm/three@0.160.0/; style-src 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' data: blob:; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<!-- SECURITY-LAYER:END -->
+
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="google-site-verification" content="Ulz4fkTjvfUssE0AQIz_tIOsz_neuTYXr_VGsIrWfvg" />
 <title>Nythos | Local Intelligence Workspace</title>
 <meta name="description" content="Nythos is a local-first AI workspace for memory, context, salience, and adaptive intelligence. Nythos Plus adds adaptive effort control, verification, and compute-aware inference.">
 <link rel="canonical" href="https://github.com/shokribardiya/Nythos-AI-J-Space">
